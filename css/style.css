@@ -1,0 +1,94 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+main{
+   padding-top: 65px;
+}
+.intro{
+   display: flex;
+   align-items: center;
+}
+.intro-content{
+   align-items: center;
+   display: grid;
+   grid-template-columns: 1fr 1.6fr;
+   gap: var(--gap);
+}
+.intro-text-content h2{
+   font-size: 6rem;
+   margin-bottom: 8rem;
+   text-transform: uppercase;
+}
+.intro-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.intro-img img{
+   max-width: 100%;
+   height: auto;
+}
+.top-jobs{
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.top-jobs .top-jobs-content{
+   width: 64rem;
+}
+.top-jobs .top-jobs-content p{
+   margin: 3rem 0;
+}
+section.top3-job-recent{
+   display: flex;
+   justify-content: center;
+}
+.content-top{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 114rem;
+}
+.top-title{
+   margin-bottom: 80px;
+}
+.container-grid{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 3rem;
+}
+.container-grid article{
+   height: 300px;
+}
+.container-grid article h3{
+   font-size: 3rem;
+}
+.container-grid article h3::before{
+   font-size: 8rem;
+   font-weight: bold;
+   font-style: italic;
+   margin-right: 2rem;
+   color: red;
+}
+.container-grid article h3:nth-child(1)::before{
+   content: '1';
+   color: blue;
+}
+.container-grid article h3:nth-child(2)::before{
+   content: '2';
+   color: blue;
+}
+
+

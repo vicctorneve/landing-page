@@ -1,0 +1,9 @@
+:root{
+   --font-titles: 'Montserrat', sans-serif;
+   --font-text: 'Open Sans', sans-serif;
+   --primary-color: #0A1128;
+   --white: white; 
+   --gap: 3rem;
+   --light-gray-color: #EEEEEE;
+   --secondary-color: crimson;
+}
