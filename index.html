@@ -16,35 +16,33 @@
 <body>
    <aside class="menu white-bg">
       <div class="main-content menu-content">
-         <h1><a href="">Logo</a></h1>
+         <h1><a href="#home">Logo</a></h1>
          <nav>
             <ul>
-               <li><a href="">Intro</a></li>
-               <li><a href="">top 3</a></li>
-               <li><a href="">gallery</a></li>
-               <li><a href="">work</a></li>
-               <li><a href="">contact</a></li>
+               <li><a href="#intro">Intro</a></li>
+               <li><a href="#top3">top 3</a></li>
+               <li><a href="#gallery">gallery</a></li>
+               <li><a href="#work">work</a></li>
+               <li><a href="#contact">contact</a></li>
             </ul>
          </nav>
       </div>
    </aside>
-
-   
    <main>
-      <section class="intro section main-bg">
-         <div class="main-content intro-content">
-            <div class="intro-text-content">
+      <section id="home" class="home section main-bg">
+         <div class="main-content home-content">
+            <div class="home-text-content">
                <h2>January Brings Us Firefox 85</h2>
                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
             </div>
-            <div class="intro-img">
+            <div class="home-img">
                <img src="assets/images/javascript-img-intro.svg" alt="">
             </div>
          </div>
       </section>
       
-      <section class="top-jobs section white-bg">
-         <article class="top-jobs-content">
+      <section id="intro" class="intro section white-bg">
+         <article class="intro-content">
             <h2>TOP 3 JOBS</h2>
 
             <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
@@ -55,9 +53,9 @@
          </article>
       </section>
 
-      <section class="top3-job-recent section main-bg">
-         <div class="content-top main-content">
-            <div class="top-title">
+      <section id="top3" class="top3-job section main-bg">
+         <div class="content-top3 main-content">
+            <div class="top3-title">
                <h2>TOP 3 JOBS</h2>
                <p>Here are some recent work.</p>
             </div>
@@ -78,22 +76,73 @@
          </div>
       </section>
 
-      <section class="section white-bg">
-         <div class="main-content">
-            <h2>GALLERY</h2>
+      <section id="gallery" class="gallery section white-bg">
+         <div class="content-gallery main-content">
+            <div class="gallery-title">
+               <h2>GALLERY</h2>
+               <p>Here are some recent work.</p>
+            </div>
+            <div class="container-flex gallery-img">
+               <article class="box-img">
+                  <img src="https://source.unsplash.com/random/360x360?r=1" alt="imagem random from unsplash">
+               </article>
+               <article class="box-img">
+                  <img src="https://source.unsplash.com/random/360x360?r=2" alt="imagem random from unsplash">
+               </article>
+               <article class="box-img">
+                  <img src="https://source.unsplash.com/random/360x360?r=3" alt="imagem random from unsplash">
+               </article>
+               <article class="box-img">
+                  <img src="https://source.unsplash.com/random/360x360?r=4" alt="imagem random from unsplash">
+               </article>
+               <article class="box-img">
+                  <img src="https://source.unsplash.com/random/360x360?r=5" alt="imagem random from unsplash">
+               </article>
+               <article class="box-img">
+                  <img src="https://source.unsplash.com/random/360x360?r=6" alt="imagem random from unsplash">
+               </article>
+               
+            </div>
          </div>
-
       </section>
 
-      <section class="section main-bg">
-
+      <section id="work" class="section main-bg">
+         <div class="content-top3 main-content">
+            <div class="top3-title">
+               <h2>TOP 3 JOBS</h2>
+               <p>Here are some recent work.</p>
+            </div>
+            <div class="container-grid">
+               <article>
+                  <h3>First</h3>
+                  <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+               </article>
+               <article>
+                  <h3>Another site</h3>
+                  <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+               </article>
+               <article>
+                  <h3>Third one</h3>
+                  <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+               </article>
+            </div>
+         </div>
       </section>
       <section class="section white-bg">
 
       </section>
 
-      <section class="section main-bg">
-
+      <section id="contact" class="section main-bg">
+         <div class="main-content home-content">
+            <div class="home-text-content">
+               <h2>CONTACT US</h2>
+               <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="home-img">
+               <img src="assets/images/contact-img.svg" alt="imagem que representa contatos">
+            </div>
+            <p>Contact form
+            </p>
       </section>
    </main>
 </body>

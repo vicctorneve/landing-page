@@ -8,6 +8,7 @@
 }
 .menu-content{
    display: flex;
+   flex-direction: column;
    justify-content: space-between;
    align-items: center;
    padding-top: 0;
@@ -45,4 +46,17 @@
 .menu ul li a:hover:after{
    width: 50%;
    left: 25%;
+}
+
+@media (max-width:800px){
+   .menu{
+      text-align: center;
+   }
+   .menu-content, .menu .menu-content ul {
+      flex-direction: column;
+      justify-content: center;
+   }
+   .menu-content{
+      height: 100vh;
+   }
 }

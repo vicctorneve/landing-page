@@ -6,89 +6,102 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+body,html{
+   scroll-behavior: smooth;
+}
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
 main{
-   padding-top: 65px;
+   padding-top: 6.5rem;
 }
-.intro{
+.home{
    display: flex;
    align-items: center;
 }
-.intro-content{
+.home-content{
    align-items: center;
    display: grid;
    grid-template-columns: 1fr 1.6fr;
    gap: var(--gap);
 }
-.intro-text-content h2{
+.home-text-content h2{
    font-size: 6rem;
    margin-bottom: 8rem;
    text-transform: uppercase;
 }
-.intro-img{
+.home-img{
    display: flex;
    align-items: center;
    justify-content: center;
 }
-.intro-img img{
+.home-img img{
    max-width: 100%;
    height: auto;
 }
-.top-jobs{
+.intro{
    text-align: center;
    display: flex;
    align-items: center;
    justify-content: center;
 }
-.top-jobs .top-jobs-content{
+.intro .intro-content{
    width: 64rem;
 }
-.top-jobs .top-jobs-content p{
+.intro .intro-content p{
    margin: 3rem 0;
 }
-section.top3-job-recent{
+section.top3-job{
    display: flex;
    justify-content: center;
 }
-.content-top{
+.content-top3{
    display: flex;
    flex-direction: column;
    justify-content: center;
    max-width: 114rem;
 }
-.top-title{
-   margin-bottom: 80px;
+.top3-title{
+   margin-bottom: 8rem;
 }
 .container-grid{
    display: grid;
    grid-template-columns: repeat(3,1fr);
    gap: 3rem;
-}
-.container-grid article{
-   height: 300px;
+   counter-reset: grid-counter;
 }
 .container-grid article h3{
    font-size: 3rem;
 }
 .container-grid article h3::before{
+   counter-increment: grid-counter;
+   content: counter(grid-counter);
    font-size: 8rem;
    font-weight: bold;
    font-style: italic;
-   margin-right: 2rem;
-   color: red;
+   margin-right: 3rem;
 }
-.container-grid article h3:nth-child(1)::before{
-   content: '1';
-   color: blue;
+.container-flex{
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 3rem;
 }
-.container-grid article h3:nth-child(2)::before{
-   content: '2';
-   color: blue;
+.gallery-title{
+   margin-bottom: 8rem;
 }
+.gallery-img{
+   width: 100%;
+}
+.gallery-img img{
+   transition: all 300ms ease-in-out;
+}
+
+
+
 
 
