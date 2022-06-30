@@ -101,7 +101,37 @@ section.top3-job{
    transition: all 300ms ease-in-out;
 }
 
-
-
+.container-table{
+   justify-content: center;
+   align-items: center;
+   max-width: 700px;
+   margin: auto;
+}
+.container-table .container-title{
+   text-align: center;
+   margin: 50px 0;
+}
+.container-table .container-title h2{
+   margin: 30px 0;
+}
+.container-table table{
+   text-align: left;
+   border-collapse: collapse;
+   min-width: 600px;
+   margin:  40px auto;
+   border: 1px solid #00000086;
+   
+}
+.container-table table caption{
+   text-align: left;
+   font-style: italic;
+}
+.container-table table td,th{
+   padding: 5px;
+   border: 1px solid #0000002d;
+}
+.container-table table th{
+   background-color: rgb(226, 226, 223);
+}
 
 
