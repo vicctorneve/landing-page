@@ -4,7 +4,7 @@
 
 <img src="assets/images/preview-landing-page.png" alt="preview do site landing page">
 
-## Tecnologias:
+## Tecnologias: 
 
 <ul>
    <li><a href="https://www.w3schools.com/html/">HTML</a>
@@ -12,5 +12,5 @@
 </ul>
 
 ### Status:
-<p>🚧 Em Construção 🚧</p>
+<p>🚧 Em Construção... 🚧</p>
 
