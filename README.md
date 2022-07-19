@@ -7,5 +7,10 @@
 ## Tecnologias: 
 
 <ul>
-   
+   <li><a href="https://www.w3schools.com/html/">HTML</a>
+   <li><a href="https://www.w3schools.com/css/">CSS</a>
 </ul>
+
+## Status:
+
+<p>🚀 Em andamento 🚀</p>
